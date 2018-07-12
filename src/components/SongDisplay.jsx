@@ -17,7 +17,7 @@ const SongDisplay = ({ dispatch, song }) => {
         if(!(arrayPosition === songArray.length - 1)) {
           dispatch(nextLyric(id));
         } else {
-          dispatch(restartSond(id));
+          dispatch(restartSong(id));
         }
       }}>
         <h1>
