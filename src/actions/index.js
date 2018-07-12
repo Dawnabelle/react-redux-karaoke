@@ -30,7 +30,7 @@ export function fetchSongId(title) {
       response => response.json(),
       error => console.log('An error occurred.', error)
     ).then(function(json) {
-      console.log('API RESPONSE', json)
+      console.log('API RESPONSE', json);
     });
   };
 }
